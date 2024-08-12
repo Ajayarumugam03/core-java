@@ -1,0 +1,23 @@
+package hi;
+
+abstract class animal {
+	abstract void sound();
+}
+class lion extends animal {
+	void sound() {
+		System.out.println("a lion is roar");
+	}
+}
+class tiger extends animal {
+	void sound() {
+		System.out.println("a tiger is chuffs");
+	}
+}
+public class wild {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		animal an = new tiger();
+		an.sound();
+	}
+
+}

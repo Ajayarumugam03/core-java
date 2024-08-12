@@ -1,0 +1,23 @@
+package hi;
+
+public class circle {
+	private int radius;
+	private String color;
+
+	public circle(int radius, String color) {
+		this.radius = radius;
+		this.color = color;
+	}
+
+	public void display() {
+		System.out.println("radius: " + this.radius);
+		System.out.println("color : " + this.color);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		circle c = new circle(1,"green");
+              c.display();
+	}
+
+}

@@ -1,0 +1,26 @@
+package hi;
+
+public class student {
+	private String name;
+	private int rollnumber;
+	private double mark;
+
+	public student(String name,int rollnumber,double mark) {
+		this.name=name;
+		this.rollnumber=rollnumber;
+		this.mark=mark;
+	}
+	public void display() {
+		System.out.println("name :"+this.name);
+		System.out.println("rollnumber :"+this.rollnumber);
+		System.out.println("mark :"+this.mark);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		student s = new student("abbas",21113,79.80);
+         System.out.println("this is student register");
+         s.display();
+	}
+
+}
